@@ -1,0 +1,28 @@
+/* Cabeçalho */
+
+.cabecalho {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aqua;
+}
+
+.cabecalho_logo {
+  max-width: 75px;
+  width: 100%;
+  margin: 0.5rem;
+  border: whitesmoke;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.cabecalho_nav {
+  text-align: center;
+  padding-right: 1rem;
+}
+
+.cabecalho_lista {
+  display: inline-block;
+  padding: 1rem;
+}
