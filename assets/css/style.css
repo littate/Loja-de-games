@@ -45,19 +45,26 @@
 /* Carousel */
 
 .carousel {
+  display: flex;
   width: 30%;
   margin: auto;
   padding-bottom: 5rem;
+  justify-content: center;  
+  align-items: center;
 }
 
 /* Destaques */
 
 .destaques {
   display: flex;
-flex-direction: row;
+  flex-direction: row;
+  justify-content: center;  
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .destaques_itens {
-  padding-bottom: 4rem;
   max-width: 500px;
+  margin: 2rem;
+  flex: 1 1 calc(100% - 50px);
 }
