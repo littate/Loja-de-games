@@ -1,3 +1,5 @@
+/* Base */
+
 /* Cabeçalho */
 
 .cabecalho {
@@ -25,4 +27,37 @@
 .cabecalho_lista {
   display: inline-block;
   padding: 1rem;
+}
+
+/* Rodapé */
+
+.rodape {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  background-color: gray;
+}
+
+.rodape p {
+  margin: auto;
+}
+
+/* Carousel */
+
+.carousel {
+  width: 30%;
+  margin: auto;
+  padding-bottom: 5rem;
+}
+
+/* Destaques */
+
+.destaques {
+  display: flex;
+flex-direction: row;
+}
+
+.destaques_itens {
+  padding-bottom: 4rem;
+  max-width: 500px;
 }
