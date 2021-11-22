@@ -1,5 +1,3 @@
-/* Base */
-
 /* Cabeçalho */
 
 .cabecalho {
@@ -29,27 +27,14 @@
   padding: 1rem;
 }
 
-/* Rodapé */
-
-.rodape {
-  display: flex;
-  padding: 1rem;
-  align-items: center;
-  background-color: gray;
-}
-
-.rodape p {
-  margin: auto;
-}
-
 /* Carousel */
 
 .carousel {
   display: flex;
   width: 30%;
-  margin: auto;
+  margin: 1rem auto;
   padding-bottom: 5rem;
-  justify-content: center;  
+  justify-content: center;
   align-items: center;
 }
 
@@ -57,14 +42,55 @@
 
 .destaques {
   display: flex;
-  flex-direction: row;
-  justify-content: center;  
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin: 0 10%;
+  gap: 2rem;
 }
 
 .destaques_itens {
   max-width: 500px;
-  margin: 2rem;
-  flex: 1 1 calc(100% - 50px);
+}
+
+/* Rodapé */
+
+.newsletter {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  background-color: aqua;
+  flex-direction: column;
+}
+
+.newsletter_form {
+  margin: 0 auto;
+}
+
+.newsletter_input {
+  text-align: left;
+  width: 20rem;
+  height: 2.5rem;
+  border-radius: 0.3rem;
+  padding-left: 5px;
+}
+
+.nav {
+
+}
+
+.rodape {
+  display: flex;
+  padding: 2rem;
+  align-items: center;
+  background-color: gray;
+
+}
+
+.rodape_direitos {
+  margin: 0 auto;
+}
+
+.rodape_icone { 
+  padding: 0 1rem;
 }
