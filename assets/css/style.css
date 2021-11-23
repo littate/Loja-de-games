@@ -1,7 +1,9 @@
 /* Base */
 
 :root {
-  --Roboto: "Roboto", "sans-serif";
+  --Roboto: "Roboto", sans-serif;
+  --Rubik: "Rubik", sans-serif;
+  --Outfit: "Outfit", sans-serif;
 }
 
 /* Cabeçalho */
@@ -26,12 +28,34 @@
 .cabecalho_nav {
   text-align: center;
   padding-right: 1rem;
+
 }
 
 .cabecalho_lista {
   display: inline-block;
   padding: 1rem;
+  flex-basis: ;
 }
+
+.cabecalho_lista-menu {
+  margin: 0 20%;
+  font-family: var(--Rubik);
+  font-weight: 300;
+  font-size: 20px;
+
+}
+
+.cabecalho_texto {
+
+  transition: 0.5s;
+}
+
+.cabecalho_texto:hover {
+  color: rgba(131, 129, 127, 0.658);
+}
+
+
+
 
 /* Carousel */
 
@@ -92,7 +116,7 @@
 }
 
 .nav_chamada {
-  font-family: var(--Roboto);
+  font-family: var(--Outfit);
   font-weight: 500;
   padding-bottom: 1rem;
 }
@@ -132,5 +156,5 @@
 }
 
 .rodape_icone:hover {
- color: rgba(59, 53, 53, 0.808);
+  color: rgba(59, 53, 53, 0.808);
 }

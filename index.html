@@ -7,21 +7,40 @@
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Roboto:ital,wght@1,100&family=Rubik:wght@300;400&display=swap" rel="stylesheet">
     <title>Home - LTD Games</title>
   </head>
   <body>
     <header class="cabecalho">
-      <img
-        class="cabecalho_logo"
-        src="./assets/img/logo.png"
-        alt="Logo da LTD Games"
-      />
+      <a href="./index.html">
+        <img
+          class="cabecalho_logo"
+          src="./assets/img/logo.png"
+          alt="Logo da LTD Games"
+        />
+      </a>
       <div class="cabecalho_nav">
         <ul>
-          <li class="cabecalho_lista"><a href="">Home</a></li>
-          <li class="cabecalho_lista"><a href="">Produtos</a></li>
-          <li class="cabecalho_lista"><a href="">Sobre nós</a></li>
+          <li class="cabecalho_lista">
+            <div class="cabecalho_lista-menu">
+              <a href="">
+                <span class=cabecalho_texto>
+                <i class="fas fa-sign-in-alt"></i>
+                ENTRE OU CADASTRE-SE
+              </span>              
+              </a>
+            </div>
+          </li>
+          <li class="cabecalho_lista">
+            <div class="cabecalho_lista-menu">
+              <a href="">
+                <span class="cabecalho_texto">
+                  <i class="fas fa-building"></i>
+                SOBRE NÓS
+                </span>
+              </a>
+            </div>
+          </li>
         </ul>
       </div>
     </header>
@@ -51,12 +70,16 @@
       </section>
       <section class="nav">
         <div>
-          <h3 class="nav_chamada">Categorias</h3>
+          <h3 class="nav_chamada">CATEGORIAS</h3>
           <ul>
-            <li class="nav_lista">PÁGINA INICIAL</li>
+            <a href="./index.html">
+              <li class="nav_lista">PÁGINA INICIAL</li>
+            </a>
             <li class="nav_lista">PLAYSTATION</li>
             <li class="nav_lista">NINTENDO SWITCH</li>
-            <li class="nav_lista">SOBRE NÓS</li>
+            <a href="./sobre-nos.html">
+              <li class="nav_lista">SOBRE NÓS</li>
+            </a>
           </ul>          
         </div>
 
