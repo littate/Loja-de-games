@@ -10,6 +10,7 @@
   color: rgba(121, 121, 121, 0.637);
 }
 
+
 .corpo {
   background-color: rgba(253, 253, 253, 0.986);
 }
@@ -40,6 +41,9 @@
   cursor: pointer;
 }
 
+.texto {
+  font-family: var(--Outfit);
+}
 /* Cabeçalho */
 
 .cabecalho {
@@ -120,67 +124,7 @@
   align-items: bottom;
 }
 
-/* Destaques */
 
-.destaques {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 3rem;
-}
-
-.destaque_principal {
-  width: 70%;
-}
-
-.destaque_principal img {
-  margin: 0 auto;
-  width: 100%;
-}
-
-.ofertas {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-
-}
-
-.ofertas_container {
-  display: flex;
-  flex-direction: column;
-  transition: 0.5s;
-  padding: 0.7rem;
-  align-items: center;
-  max-width: 300px;
- 
-}
-
-.ofertas_principal-img {
-  width: 200px;
-  height: 300px;
-  max-height: 300px;
-  max-width: 200px;
-  padding: 0 3rem;
-}
-
-.ofertas_texto-titulo {
-  padding: 2rem 0 2rem;
-  text-align: center;
-  font-family: var(--Outfit);
-  text-indent: auto;
-  overflow-wrap: break-word;
-}
-
-.ofertas_texto-preço {
-  padding: 0 0 2rem;
-  text-align: center;
-  font-family: var(--Roboto);
-}
-
-.ofertas_container:hover {
-  border-radius: 0.5rem;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.205);
-}
 
 /* Rodapé */
 

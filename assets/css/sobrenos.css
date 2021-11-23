@@ -1,0 +1,18 @@
+.sobre_nos {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+.sobre_nos-titulo {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+.sobre_nos-texto {
+    padding: 0 0 1rem;
+    text-align: left;
+}
