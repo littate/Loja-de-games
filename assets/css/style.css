@@ -1,3 +1,9 @@
+/* Base */
+
+:root {
+  --Roboto: "Roboto", "sans-serif";
+}
+
 /* Cabeçalho */
 
 .cabecalho {
@@ -76,21 +82,55 @@
 }
 
 .nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 15%;
+  padding: 1.5rem 0;
+}
 
+.nav_block {
+}
+
+.nav_chamada {
+  font-family: var(--Roboto);
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.nav_lista {
+  font-family: "Roboto", "sans-serif";
+  font-style: italic;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+.nav_lista:hover {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.363);
+}
+
+.nav_midias {
+  justify-content: flex-start;
+
+  padding-top: 1rem;
 }
 
 .rodape {
   display: flex;
-  padding: 2rem;
+  padding: 1.5rem;
   align-items: center;
-  background-color: gray;
-
 }
 
 .rodape_direitos {
   margin: 0 auto;
 }
 
-.rodape_icone { 
-  padding: 0 1rem;
+.rodape_icone {
+  padding-right: 0.2rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.rodape_icone:hover {
+ color: rgba(59, 53, 53, 0.808);
 }
