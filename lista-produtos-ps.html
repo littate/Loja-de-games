@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/destaques.css" />
+    <link rel="stylesheet" href="assets/css/lista.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -87,76 +88,130 @@
           </ul>
         </div>
       </section>
-      
     </header>
 
-   
+    <section class="listaprodutos">
+      <div class="sidebar">
+        <span class="texto">CATEGORIAS</span>
+        <ul class="sidebar_elementos texto">
+          <li>
+            <a href="">Acessórios</a>
+          </li>
+          <li>
+            <a href="">Console</a>
+          </li>
+          <li>
+            <a href="">Jogos</a>
+          </li>
+        </ul>
+    </div>
 
-  
+    <div class="grid">
+        <div class="ofertas_container">
+          <img
+            class="ofertas_principal-img"
+            src="./assets/img/Playstation/pst_acessorio.jfif"
+            alt=""
+          />
+          <span class="ofertas_texto-titulo texto"
+            >Controle Dual Sense - Playstation 5</span
+          >
+          <span class="ofertas_texto-preço">R$ 499,90</span>
+        </div>
+
+        <div class="ofertas_container">
+          <img
+            class="ofertas_principal-img"
+            src="./assets/img/Playstation/ps5_jogo.jpg"
+            alt=""
+          />
+          <span class="ofertas_texto-titulo texto"
+            >Jogo Demon's Souls - Playstation 5</span
+          >
+          <span class="ofertas_texto-preço">R$ 299,90</span>
+        </div>
+
+        <div class="ofertas_container">
+          <img
+            class="ofertas_principal-img"
+            src="./assets/img/Playstation/ps_vitrine.jpg"
+            alt=""
+          />
+          <span class="ofertas_texto-titulo texto"
+            >Console Playstation 5</span
+          >
+          <span class="ofertas_texto-preço">R$ 299,90</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="lista"></section>
 
     <footer>
-      <section class="newsletter">
-        <div>
-          <form action="./index.html">
-            <input
-              class="input"
-              placeholder="Digite o seu e-mail e receba novidades!"
-            />
-            <button class="button">ASSINE JÁ!</button>
-          </form>
-        </div>
-      </section>
-      <section class="nav">
-        <div>
-          <h3 class="nav_chamada">CATEGORIAS</h3>
-
-          <ul>
-            <li>
-              <a href="./index.html" class="nav_lista">PÁGINA INICIAL</a>
-            </li>
-            <li>
-              <a href="" class="nav_lista">PLAYSTATION</a>
-            </li>
-            <li class="nav_lista">
-              <a href="" class="nav_lista">NINTENDO SWITCH</a>
-            </li>
-            <li class="nav_lista">
-              <a href="./sobre-nos.html" class="nav_lista">SOBRE NÓS</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="nav_block">
-          <h3 class="nav_chamada">CONTATO</h3>
-          <ul>
-            <li>
-              <a href="" class="nav_lista">TELEFONE</a>
-            </li>
-            <li>
-              <a href="" class="nav_lista">WHATSAPP</a>
-            </li>
-            <li>
-              <a href="" class="nav_lista">E-MAIL</a>
-            </li>
-          </ul>
-          <div class="nav_midias">
-            <a href="https://www.facebook.com/" class="rodape_icone"
-              ><i class="fab fa-facebook"></i
-            ></a>
-            <a href="https://www.instagram.com/" class="rodape_icone"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a href="https://twitter.com/" class="rodape_icone"
-              ><i class="fab fa-twitter"></i
-            ></a>
+        <section class="newsletter">
+          <div>
+            <form action="./index.html">
+              <span class="texto" style="padding-right: 1rem;">ASSINE A NOSSA NEWSLETTER!</span>
+              <input
+                class="input"
+                placeholder="Digite o seu e-mail e receba novidades!"
+              />
+              <button class="button">ENVIAR</button>
+            </form>
           </div>
-        </div>
-      </section>
-      <section class="rodape" style="border-top: outset 1px grey">
-        <div class="rodape_direitos">
-          <p>Todos os direitos reservados</p>
-        </div>
-      </section>
-    </footer>
-  </body>
-</html>
+        </section>
+        <section class="nav">
+          <div>
+            <h3 class="nav_chamada">CATEGORIAS</h3>
+  
+            <ul>
+              <li>
+                <a href="./index.html" class="nav_lista">PÁGINA INICIAL</a>
+              </li>
+              <li>
+                <a href="./lista-produtos-ps.html" class="nav_lista">PLAYSTATION</a>
+              </li>
+              <li class="nav_lista">
+                <a href="./lista-produtos-nintendo.html" class="nav_lista">NINTENDO SWITCH</a>
+              </li>
+              <li class="nav_lista">
+                <a href="./sobre-nos.html" class="nav_lista">SOBRE NÓS</a>
+              </li>
+            </ul>
+          </div>
+  
+          <div class="nav_block">
+            <h3 class="nav_chamada">CONTATO</h3>
+            <ul>
+              <li>
+                <a href="" class="nav_lista">TELEFONE</a>
+              </li>
+              <li>
+                <a href="" class="nav_lista">WHATSAPP</a>
+              </li>
+              <li>
+                <a href="" class="nav_lista">E-MAIL</a>
+              </li>
+            </ul>
+            <div class="nav_midias">
+              <a href="https://www.facebook.com/" class="rodape_icone"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/" class="rodape_icone"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://twitter.com/" class="rodape_icone"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </section>
+        <section class="rodape" style="border-top: outset 1px grey">
+          <div class="rodape_direitos">
+            <p>Todos os direitos reservados</p>
+          </div>
+        </section>
+      </footer>
+    </body>
+  </html>
+  

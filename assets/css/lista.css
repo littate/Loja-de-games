@@ -1,0 +1,45 @@
+:root {
+    --Roboto: "Roboto", sans-serif;
+    --Rubik: "Rubik", sans-serif;
+    --Outfit: "Outfit", sans-serif;
+  }
+
+.listaprodutos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+
+.sidebar{    
+    text-align: left;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.096);
+    height: 100%;
+    max-height: 100%;
+}
+
+
+.sidebar_elementos li{
+    text-align: left;
+    padding: 1rem 0 0;
+    font-family: var(--Roboto);
+}
+
+.chamada li a {
+    transition: 0.6s;
+}
+
+.chamada li a:hover {
+    opacity: 0.6;
+}
+
+.grid {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
