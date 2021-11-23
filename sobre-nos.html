@@ -6,99 +6,148 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Roboto:ital,wght@1,100&family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Roboto:ital,wght@1,100&family=Rubik:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
     <title>Home - LTD Games</title>
   </head>
-  <body>
-    <header class="cabecalho">
+  <body class="corpo">
+    <header>
+      <section class="cabecalho">
         <a href="./index.html">
-            <img
-              class="cabecalho_logo"
-              src="./assets/img/logo.png"
-              alt="Logo da LTD Games"
-            />
-          </a>
-      <div class="cabecalho_nav">
-        <ul>
-          <li class="cabecalho_lista">
-            <div class="cabecalho_lista-menu">
-              <a href="">
-                <span class=cabecalho_texto>
-                <i class="fas fa-sign-in-alt"></i>
-                ENTRE OU CADASTRE-SE
-              </span>              
-              </a>
-            </div>
-          </li>
-          <li class="cabecalho_lista">
-            <div class="cabecalho_lista-menu">
-              <a href="">
-                <span class="cabecalho_texto">
-                  <i class="fas fa-building"></i>
-                SOBRE NÓS
-                </span>
-              </a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </header>
-    <body>
-      <section class="carousel">
-        <div>
-          <img src="/assets/img/logo.png" alt="" />
+          <img
+            class="cabecalho_logo"
+            src="./assets/img/logo.png"
+            alt="Logo da LTD Games"
+          />
+        </a>
+
+        <div class="cabecalho_searchbar">
+          <input
+            class="cabecalho_search input"
+            placeholder="PESQUISE EM NOSSO SITE"
+          />
+          <i class="fas fa-search lupa"></i>
+        </div>
+
+        <div class="cabecalho_nav">
+          <ul>
+            <li class="cabecalho_lista">
+              <div class="cabecalho_lista-menu">
+                <a href="">
+                  <span class="cabecalho_texto">
+                    <i class="fas fa-sign-in-alt"></i>
+                    ENTRE OU CADASTRE-SE
+                  </span>
+                </a>
+              </div>
+            </li>
+            <li class="cabecalho_lista">
+              <div class="cabecalho_lista-menu">
+                <a href="./sobre-nos.html">
+                  <span class="cabecalho_texto">
+                    <i class="fas fa-building"></i>
+                    SOBRE NÓS
+                  </span>
+                </a>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
-     
+
+      <section class="menu">
+        <div>
+          <ul>
+            <li class="menu_lista">
+              <div>
+                <a href="">
+                  <i class="fab fa-playstation"></i>
+                  PLAYSTATION
+                </a>
+              </div>
+            </li>
+            <li class="menu_lista">
+              <div>
+                <a href="">
+                  <img src="./assets/img/switch.png" alt="" class="menu_logo">
+                  NINTENDO SWITCH
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </header>
+    <body>
+    
     </body>
     <footer>
       <section class="newsletter">
         <div>
           <form action="./index.html">
-            <Input class="newsletter_input" placeholder="Digite o seu e-mail e receba novidades!" ></Input>
-            <button>Assine já!</button>
-
+            <input
+              class="input"
+              placeholder="Digite o seu e-mail e receba novidades!"
+            />
+            <button class="button">ASSINE JÁ!</button>
           </form>
         </div>
       </section>
       <section class="nav">
         <div>
           <h3 class="nav_chamada">CATEGORIAS</h3>
+
           <ul>
-            <a href="./index.html">
-              <li class="nav_lista">PÁGINA INICIAL</li>
-            </a>
-            <li class="nav_lista">PLAYSTATION</li>
-            <li class="nav_lista">NINTENDO SWITCH</li>
-            <a href="./sobre-nos.html">
-              <li class="nav_lista">SOBRE NÓS</li>
-            </a>
-          </ul>          
+            <li>
+              <a href="./index.html" class="nav_lista">PÁGINA INICIAL</a>
+            </li>
+            <li>
+              <a href="" class="nav_lista">PLAYSTATION</a>
+            </li>
+            <li class="nav_lista">
+              <a href="" class="nav_lista">NINTENDO SWITCH</a>
+            </li>
+            <li class="nav_lista">
+              <a href="./sobre-nos.html" class="nav_lista">SOBRE NÓS</a>
+            </li>
+          </ul>
         </div>
 
         <div class="nav_block">
           <h3 class="nav_chamada">CONTATO</h3>
           <ul>
-            <li class="nav_lista">TELEFONE</li>
-            <li class="nav_lista">WHATSAPP</li>
-            <li class="nav_lista">E-MAIL</E-mail></li>
+            <li>
+              <a href="" class="nav_lista">TELEFONE</a>
+            </li>
+            <li>
+              <a href="" class="nav_lista">WHATSAPP</a>
+            </li>
+            <li>
+              <a href="" class="nav_lista">E-MAIL</a>
+            </li>
           </ul>
           <div class="nav_midias">
-            <a href="http://www.facebook.com/">              
-              <i class="fab fa-facebook rodape_icone"></i>
-            </a>
-            <a href="http://www.instagram.com/">
-              <i class="fab fa-instagram rodape_icone"></i>
-            </a>
-            <a href="http://twitter.com/">
-              <i class="fab fa-twitter rodape_icone"></i>
-            </a>
+            <a href="https://www.facebook.com/" class="rodape_icone"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/" class="rodape_icone"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://twitter.com/" class="rodape_icone"
+              ><i class="fab fa-twitter"></i
+            ></a>
           </div>
         </div>
-
       </section>
-      <section class="rodape" style="border-top: outset 1px grey;">
+      <section class="rodape" style="border-top: outset 1px grey">
         <div class="rodape_direitos">
           <p>Todos os direitos reservados</p>
         </div>
