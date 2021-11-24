@@ -76,4 +76,23 @@
 
 @media screen and (max-width: 900px) {
 
+    .produto {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+ .produto_imagem img{
+     justify-content: center;
+     max-width: 800px;
+     width: 100%;
+ }
+
+ .produto_acao {
+     margin: 0 auto;
+     justify-content: center;
+ }
+
+ .produto_precos {
+     margin: 1rem 0;
+ }
 }
