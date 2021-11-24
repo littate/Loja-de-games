@@ -60,4 +60,8 @@
   .sidebar_elementos li {
     text-align: center;
   }
+
+  .grid {
+    padding-top: 2rem;
+  }
 }
