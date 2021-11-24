@@ -4,6 +4,10 @@
   --Outfit: "Outfit", sans-serif;
 }
 
+.selecao {
+  display: flex;
+}
+
 .listaprodutos {
   display: flex;
   flex-direction: row;
@@ -22,7 +26,7 @@
 }
 
 .sidebar_elementos li {
-  text-align: left;
+  text-align: cente;
   padding: 1rem 0 0;
   font-family: var(--Roboto);
 }
@@ -42,3 +46,18 @@
   flex-wrap: wrap;
 }
 
+@media screen and (max-width: 900px) {
+  .listaprodutos {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .sidebar_elementos li {
+    text-align: center;
+  }
+}
