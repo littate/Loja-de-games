@@ -5,3 +5,6 @@
 #A minha ideia foi simular uma loja de games, onde são há opções de compra de consoles, acessórios e jogos para os consumidores.
 
 #Foi desenvolvido duas sessões de distribuidoras — Nintendo e Sony — onde estão os produtos divididos em suas categorias. Também foi criado uma parte do site para falar sobre a empresa.
+
+
+#Link para a página https://littate.github.io/loja-de-games/
