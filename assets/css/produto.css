@@ -13,6 +13,7 @@
 
 .produto_imagem img {
     max-width: 600px;
+    max-height: 300px;
     width: auto;
 }
 
@@ -21,7 +22,7 @@
     flex-direction: column;
     justify-content: space-between;
     margin-left: 4rem;
-    max-height: 300px;
+    max-width: 800px;
 }
 
 .produto_descricao {
@@ -41,6 +42,8 @@
 }
 
 .produto_button {
+    margin-top: 1.5rem;
+    width: 90%;
     border: none;
     background-color: rgba(7, 155, 32, 0.836);
 }
