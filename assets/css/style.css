@@ -89,6 +89,19 @@
   font-size: 20px;
 }
 
+.cabecalho_lista-menu a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  max-width: 150px;
+  width: 150px;
+}
+
+.fas {
+  margin-right: 0.5rem;
+}
+
 .cabecalho_texto {
   transition: 0.5s;
 }
@@ -152,6 +165,10 @@
   padding: 1.5rem 0;
 }
 
+.nav_menu {
+  display: flex;
+}
+
 .nav_chamada {
   font-family: var(--Outfit);
   font-weight: 500;
@@ -209,6 +226,19 @@
 
   .cabecalho_searchbar {
     padding-top: 1rem;
+  }
+
+  .cabecalho_nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .cabecalho_lista-menu {
+    display: flex;
+    justify-content: center;
   }
 
   .lupa {
