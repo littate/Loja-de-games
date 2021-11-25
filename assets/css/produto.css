@@ -84,10 +84,17 @@
         justify-content: center;
     }
 
+    .produto_imagem {
+        display: flex;
+    }
+
  .produto_imagem img{
+     max-width: 300px;
+     margin: 0 auto;
      justify-content: center;
-     max-width: 800px;
-     width: 100%;
+     align-items: center;
+     width: auto;
+     height: auto;
  }
 
  .produto_acao {

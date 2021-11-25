@@ -48,6 +48,16 @@
   margin: auto 2rem;
 }
 
+.ofertas_container a {
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s;
+  padding: 0.7rem;
+  align-items: center;
+  max-width: 300px;
+  margin: auto 2rem;
+}
+
 .ofertas_principal-img {
   width: 200px;
   height: 300px;
