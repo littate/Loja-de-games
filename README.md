@@ -1,4 +1,4 @@
-# loja-de-games.
+# loja-de-games
 
 Idealização do projeto para o programa Gama Experience 40 onde a proposta era desenvolver um site de uma loja no estilo Mercado Livre, Americanas etc.
 
