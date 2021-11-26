@@ -126,13 +126,21 @@
   transition: 0.7s;
 }
 
+.menu_lista a {
+  display: flex;
+}
+
 .menu_lista:hover {
   opacity: 0.4;
 }
 
 .menu_logo {
-  width: 15px;
+  max-width: 15px;
   align-items: bottom;
+}
+
+.menu_lista i {
+  margin-right: 0.3rem;
 }
 
 /* Rodapé */
@@ -228,7 +236,7 @@
     padding-top: 1rem;
   }
 
-  .cabecalho_nav ul{
+  .cabecalho_nav ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
